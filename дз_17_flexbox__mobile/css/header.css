@@ -1,0 +1,61 @@
+.header {
+  padding: 1.5625rem 0;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+}
+
+header .container {
+  padding: 0;
+}
+.header__btn {
+  width: 7.5rem;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+}
+
+.btn-white {
+  background-color: #ffffff;
+}
+.header__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 0;
+  margin-left: 0;
+  flex: 0 1 130px;
+  
+}
+
+
+.header__item {
+  margin: 0 0 0 3.125rem;
+  display: flex;
+ flex: 0 1 592px;
+  
+}
+.header__list {
+  font-size: 0.9375rem;
+  display: flex;
+  flex: 0 1 20%;
+  justify-content: flex-start;
+  
+}
+.header__list a {
+  text-decoration: none;
+  color: #000000;
+}
+.btn__box {
+  display: flex;
+}
+.header .btn__box {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+
+.header__burger {
+  display: none;
+}
